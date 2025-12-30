@@ -96,3 +96,16 @@ hr{border:none;border-top:1px solid var(--line);margin:16px 0}
   .mobile-toggle{display:inline-flex}
   .h1{font-size:32px}
 }
+/* 메인 히어로 이미지 조정 */
+.hero {
+  padding: 16px 0;
+}
+
+.hero-img {
+  width: 100%;
+  max-width: 420px;   /* ← 이 숫자가 핵심 */
+  height: auto;
+  display: block;
+  margin: 0 auto;     /* 가운데 정렬 */
+  border-radius: 16px;
+}
